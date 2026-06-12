@@ -10,9 +10,17 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     justify-content: flex-end;
     text-align: right;
     padding-bottom: 80px;
+}
+
+@media (max-aspect-ratio: 1/1) {
+    #hero.parallax-bg {
+        background-size: 230% auto;
+        background-position: center 20%;
+    }
 }
 
 /* Hero Section */
