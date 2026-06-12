@@ -52,8 +52,8 @@ export const PROCESS_STEPS = [
 ];
 
 export const STATS = [
-    { value: 500, label: "Clients", prefix: "+", suffix: "" },
-    { value: 50, label: "Kg/Month", prefix: "", suffix: "M" },
-    { value: 30, label: "Countries", prefix: "+", suffix: "" },
+    { value: 150, label: "Clients", prefix: "", suffix: "" },
+    { value: 325000, label: "Kg/Month", prefix: "", suffix: "+" },
+    { value: 10, label: "States", prefix: "", suffix: "" },
     { value: 98, label: "Quality Rate", prefix: "", suffix: "%" }
 ];

@@ -169,7 +169,10 @@ function renderStats() {
 
     container.innerHTML = STATS.map(stat => `
         <div class="stat reveal-up">
-            <span class="counter" data-target="${stat.value}">${stat.prefix}0${stat.suffix}</span>
+            <span class="counter" 
+                  data-target="${stat.value}" 
+                  data-prefix="${stat.prefix || ''}" 
+                  data-suffix="${stat.suffix || ''}">${stat.prefix || ''}0${stat.suffix || ''}</span>
             <p>${stat.label}</p>
         </div>
     `).join('');
