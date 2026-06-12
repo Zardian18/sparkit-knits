@@ -1,0 +1,43 @@
+:root {
+    /* Colors - Dark Luxury Theme */
+    --bg-primary: #0C0C0E;
+    --bg-secondary: #161619;
+    --bg-tertiary: #1E1E22;
+    
+    --text-primary: #F5F0EB;
+    --text-secondary: #A89F93;
+    --text-tertiary: #6B6460;
+    
+    --accent-gold: #C9A96E;
+    --accent-gold-dim: #8B7544;
+    --accent-emerald: #2D7A5F;
+    --accent-sapphire: #3A5BA0;
+    
+    --border: rgba(201, 169, 110, 0.15);
+    --glass: rgba(22, 22, 25, 0.7);
+    
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+    
+    --text-hero: clamp(3rem, 6vw, 5.5rem);
+    --text-section-title: clamp(2.2rem, 4.5vw, 3.8rem);
+    --text-subheading: 1.25rem;
+    --text-body: 1rem;
+    --text-label: 0.85rem;
+    
+    /* Spacing & Layout */
+    --section-padding: 100px 40px;
+    --container-max-width: 1200px;
+    --card-radius: 12px;
+    --btn-radius: 8px;
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 768px) {
+    :root {
+        --section-padding: 60px 20px;
+        --text-subheading: 1.1rem;
+        --text-body: 0.95rem;
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "sparkit-knitts",
+  "version": "1.0.0",
+  "description": "Professional website for Sparkit Knits",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
